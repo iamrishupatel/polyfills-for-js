@@ -19,10 +19,8 @@ Array.prototype.myFilter = function (callback, thisArg) {
   for (let index = 0; index < range; index++) {
     const element = this[index];
 
-    if (this.indexOf(element) !== -1) {
-      if (callback.call(thisArg, element, index, this)) {
-        newArray.push(element);
-      }
+    if (callback.call(thisArg, element, index, this)) {
+      newArray.push(element);
     }
   }
 

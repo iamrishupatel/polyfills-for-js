@@ -13,6 +13,7 @@ and use any implementation by importing a paricular script.
 - [filter()](https://github.com/iamrishupatel/polyfills-for-js/blob/main/array-methods/filter.js)
 - [flatten()](https://github.com/iamrishupatel/polyfills-for-js/blob/main/array-methods/flatten.js)
 - [find()](https://github.com/iamrishupatel/polyfills-for-js/blob/main/array-methods/find.js)
+- [forEach()](https://github.com/iamrishupatel/polyfills-for-js/blob/main/array-methods/forEach.js)
 
 ## DOM methods
 
